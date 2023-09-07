@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/faviconlogo.jpg" type="image/x-icon">
-    <title>Studious &#8211; WordPress Theme &#8211; Just another W3Layouts free WordPress Demo Sites site</title>
+    <title>About page &#8211; Studious &#8211; WordPress Theme</title>
     <!-- google font -->
     <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css'>
     <!-- style css  -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -67,7 +68,7 @@
             <div class="container-fluid">
                 <div class="header-logo">
                     <img src="./img/logo.png" alt="">
-                    <a class="navbar-brand" href="#">Studious</a>
+                    <a class="navbar-brand" href="./index.html">Studious</a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
@@ -77,10 +78,10 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            <a class="nav-link " aria-current="page" href="./index.html">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./about.html">ABOUT US</a>
+                            <a class="nav-link active" href="#">ABOUT US</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -110,197 +111,48 @@
             </div>
         </nav>
     </header>
-    <section class="carousel-slider">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="overlay"></div>
-                    <img src="./img/banner2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <div class="">
-                            <h5>Studious is the best choice for everyone</h5>
-                            <a class="btn btn-light mt-sm-5 mt-4" href="about">
-                                Know More <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
+    <!-- inner banner -->
+    <div class="inner-banner">
+        <section class="breadcrumb">
+            <div class="container AboutPageBanner">
+                <h4 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2">
+                    About Us</h4>
+                <ul class="breadcrumbs-custom-path AllBreadcrumbs">
+                    <a href="./index.html"
+                        rel="nofollow">Home</a>&nbsp;&nbsp;&#187;&nbsp;&nbsp;About page
+                </ul>
+            </div>
+        </section>
+    </div>
+    <section class="video-section py-5">
+        <div class="container py-md-5 py-4 AboutPageAbout">
+            <div class="row">
+                <div class="col-lg-6 about-right-faq align-self pr-lg-5">
+                    <h3 class="title-big">
+                        Our Mission is to Provide a World‑class Education </h3>
+                    <p class="mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                        ultrices in ligula. Semper at tempufddfel. </p>
                 </div>
-                <div class="carousel-item">
-                    <div class="overlay"></div>
-                    <img src="./img/banner3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <div class="">
-                            <h5>Studious is the best choice for everyone</h5>
-                            <a class="btn btn-light mt-sm-5 mt-4" href="about">
-                                Know More <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
+                <div class="col-lg-6 left-wthree-img-video text-righ pr-lg-5 mt-lg-0 mt-5">
+                    <div class="position-relative text-center">
+                        <img src="./img/about.jpg" alt="" class="img-fluid">
+                        <a href="#small-dialog"
+                            class="open-popup-link popup-with-zoom-anim play-view text-center position-absolute">
+                            <span class="video-play-icon">
+                                <span class="fa fa-play"></span>
+                            </span>
+                        </a>
+                        <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                            <iframe src="https://player.vimeo.com/video/83651159?title=0&byline=0&portrait=0"
+                                frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="feature pb-lg-5 text-center">
-        <div class="container">
-            <div class="box row justify-content-center">
-                <div class="col-lg-3 col-md-6 px-lg-2">
-                    <div class="box-info bg-primary">
-                        <i class="fa fa-cogs" aria-hidden="true"></i>
-                        <h4><a href="#url" class="title-head">Engineering & Architecture</a></h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 px-lg-2 mt-md-0 mt-3">
-                    <div class="box-info bg-warning">
-                        <i class="fa fa-book" aria-hidden="true"></i>
-                        <h4><a href="#url" class="title-head">Learning Management</a>
-                        </h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 px-lg-2 mt-lg-0 mt-3">
-                    <div class="box-info bg-danger">
-                        <i class="fa fa-coffee" aria-hidden="true"></i>
-                        <h4><a href="#url" class="title-head">Business & Management</a>
-                        </h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 px-lg-2 mt-lg-0 mt-3">
-                    <div class="box-info bg-success">
-                        <i class="fa fa-hourglass-half" aria-hidden="true"></i>
-                        <h4><a href="#url" class="title-head">Artificial Intelligence</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="studious py-5">
-        <div class="container py-md-5 py-4">
-            <div>
-                <div class="studious-title text-center mx-auto mb-5 pb-sm-4">
-                    <h3 class="title-main">
-                        Welcome to <span>Studious</span> </h3>
-                </div>
-                <div class="studious-box row text-center justify-content-center">
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="studious-body">
-                            <div class="studious-images">
-                                <span class="fa fa-graduation-cap" aria-hidden="true"></span>
-                            </div>
-                            <div class="studious-info mt-4">
-                                <a href="services">
-                                    <h3 class="studious-title">
-                                        Trending Courses </h3>
-                                </a>
-                                <p class="studious-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                                    eiusmod te incididunt</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mt-sm-0 mt-5">
-                        <div class="studious-body">
-                            <div class="studious-images">
-                                <span class="fa fa-users" aria-hidden="true"></span>
-                            </div>
-                            <div class="studious-info mt-4">
-                                <a href="services">
-                                    <h3 class="studious-title">
-                                        Certified Teachers </h3>
-                                </a>
-                                <p class="studious-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                                    eiusmod te incididunt</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mt-lg-0 mt-5">
-                        <div class="studious-body">
-                            <div class="studious-images">
-                                <span class="fa fa-book" aria-hidden="true"></span>
-                            </div>
-                            <div class="studious-info mt-4">
-                                <a href="services">
-                                    <h3 class="feature-title">
-                                        Books & Library</h3>
-                                </a>
-                                <p class="studious-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                                    eiusmod te incididunt</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- bot studious  -->
-    <section class="bot-studious">
-        <div class="bot-studious-bg container-fluid py-5">
-            <div class="container py-md-5 py-4">
-                <div class="bot-studious-grids">
-                    <div class="row">
-                        <div class="col-xl-4"></div>
-                        <div class="col-xl-8">
-                            <div class="row bot-studious-detail">
-                                <div class="col-md-6">
-                                    <div class="d-flex align-items-center bot-studious-box">
-                                        <div class="icon">
-                                            <i class="fa fa-american-sign-language-interpreting" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="icon-info">
-                                            <h5>
-                                                Flexible Classes </h5>
-                                            <p>Lorem ipsum dolor sit amet, dolor elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mt-md-0 mt-4">
-                                    <div class="d-flex align-items-center bot-studious-box">
-                                        <div class="icon">
-                                            <i class="fa fa-download" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="icon-info">
-                                            <h5>
-                                                Offline Mode </h5>
-                                            <p>Lorem ipsum dolor sit amet, dolor elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mt-4 pt-md-2">
-                                    <div class="d-flex align-items-center bot-studious-box ">
-                                        <div class="icon">
-                                            <i class="fa fa-headphones" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="icon-info">
-                                            <h5>
-                                                Educator Help </h5>
-                                            <p>Lorem ipsum dolor sit amet, dolor elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mt-4 pt-md-2">
-                                    <div class="d-flex align-items-center bot-studious-box">
-                                        <div class="icon">
-                                            <i class="fa fa-play-circle" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="icon-info">
-                                            <h5>
-                                                Online Classes </h5>
-                                            <p>Lorem ipsum dolor sit amet, dolor elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end bot studious  -->
     <section class="number py-sm-5 pt-sm-0 pt-5" id="number">
         <div class="container py-md-5 py-4">
-            <div class="number-title text-center mx-auto mb-5 pb-sm-4">
-                <h3 class="title-main">
-                    Strength in <span>Numbers</span> </h3>
-                <p class="mt-4 pt-md-2">
-                    Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
-            </div>
             <div class="number-main">
                 <div class="row text-center justify-content-center">
                     <div class="col-lg-3 col-sm-6">
@@ -336,70 +188,52 @@
             </div>
         </div>
     </section>
-    <section class="feedback">
-        <div class="py-5">
-            <div class="container py-md-5 py-4">
-                <div class="title-heading-w3 text-center mx-auto mb-5 pb-lg-5">
-                    <h3 class="title-main">
-                        Student Community <span>Feedback </span> </h3>
-                </div>
-                <div class="row feedback-content mt-md-5 justify-content-center">
-                    <div class="col-lg-4 col-md-6 feedback-box">
-                        <div class="feedback-box-grid">
-                            <span class="fa fa-quote-left"></span>
-                            <p class="sub-text"><q>
-                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.</q>
-                            </p>
-                            <div class="d-grid sub-profile">
-                                <div class="avatar-profile">
-                                    <img src="./img/testi2.jpg" alt="" class="img-fluid" />
-                                </div>
-                                <div class="profile_grid text-left">
-                                    <h5>
-                                        Petey Cruis </h5>
-                                    <p>
-                                        Caption Here </p>
-                                </div>
+    <section class="bottom-about studious py-5">
+        <div class="container py-md-5 py-4">
+            <div>
+                <div class="studious-box row text-center justify-content-center">
+                    <div class="col-lg-4 col-md-6 gids-feature">
+                        <div class="studious-body area-box">
+                            <div class="studious-images">
+                                <span class="fa fa-smile-o" aria-hidden="true"></span>
+                            </div>
+                            <div class="studious-info mt-4">
+                                <a href="services">
+                                    <h3 class="studious-title">
+                                        Group Seminars</h3>
+                                </a>
+                                <p class="studious-text">Ut blandit eu leo non. Duis sed dolor amet ipsum primis
+                                    in faucibus orci dolor sit et amet.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mt-md-0 mt-4 feedback-box">
-                        <div class="feedback-box-grid">
-                            <span class="fa fa-quote-left"></span>
-                            <p class="sub-text"><q>
-                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.</q>
-                            </p>
-                            <div class="d-grid sub-profile">
-                                <div class="avatar-profile">
-                                    <img src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/testi1.jpg"
-                                        alt="" class="img-fluid" />
-                                </div>
-                                <div class="profile_grid text-left">
-                                    <h5>
-                                        Molive Joe </h5>
-                                    <p>
-                                        Caption Here </p>
-                                </div>
+                    <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+                        <div class="studious-body area-box">
+                            <div class="studious-images">
+                                <span class="fa fa-graduation-cap icon-style-2" aria-hidden="true"></span>
+                            </div>
+                            <div class="studious-info mt-4">
+                                <a href="services">
+                                    <h3 class="studious-title">
+                                        Trending Courses </h3>
+                                </a>
+                                <p class="studious-text">Ut blandit eu leo non. Duis sed dolor amet ipsum primis
+                                    in faucibus orci dolor sit et amet.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mt-lg-0 mt-4 feedback-box">
-                        <div class="feedback-box-grid">
-                            <span class="fa fa-quote-left"></span>
-                            <p class="sub-text"><q>
-                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.</q>
-                            </p>
-                            <div class="d-grid sub-profile">
-                                <div class="avatar-profile">
-                                    <img src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/testi3.jpg"
-                                        alt="" class="img-fluid" />
-                                </div>
-                                <div class="profile_grid text-left">
-                                    <h5>
-                                        Paige Turner </h5>
-                                    <p>
-                                        Caption Here </p>
-                                </div>
+                    <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
+                        <div class="studious-body area-box">
+                            <div class="studious-images">
+                                <span class="fa fa-users icon-style-3" aria-hidden="true"></span>
+                            </div>
+                            <div class="studious-info mt-4">
+                                <a href="services">
+                                    <h3 class="feature-title">
+                                        Expert Teachers</h3>
+                                </a>
+                                <p class="studious-text">Ut blandit eu leo non. Duis sed dolor amet ipsum primis
+                                    in faucibus orci dolor sit et amet.</p>
                             </div>
                         </div>
                     </div>
@@ -411,7 +245,7 @@
         <div class="container py-md-5 py-4 teams">
             <div class="instructors-title text-center mx-auto mb-5 pb-sm-4">
                 <h3 class="title-main">
-                    World Class <span>Instructors</span> </h3>
+                    Who Makes the Magic Happen?<span>Know About Them</span> </h3>
             </div>
             <div class="row text-center justify-content-center">
                 <div class="col-lg-3 col-sm-6">
@@ -522,25 +356,136 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-3 col-sm-6 mt-5">
+                    <div class="team-box">
+                        <div class="team-grids">
+                            <a href="#url">
+                                <img src="./img/team5.jpg" class="img-fluid" alt="">
+                                <div class="team-info">
+                                    <div class="social-icons">
+                                        <a class="facebook" href="https://www.facebook.com/w3layouts/">
+                                            <span class="fa fa-brands fa-facebook-f"></span>
+                                        </a>
+                                        <a class="twitter mx-2" href="https://twitter.com/W3layouts">
+                                            <span class="fa fa-brands fa-twitter"></span>
+                                        </a>
+                                        <a class="google" href="https://w3layouts.com/tag/email-templates/">
+                                            <span class="fa fa-brands fa-google-plus-g"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="team-bot-box p-4">
+                            <h5 class="member mb-1"><a href="#url">Olive Yew</a>
+                            </h5>
+                            <small>Teaches Design</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mt-5">
+                    <div class="team-box">
+                        <div class="team-grids">
+                            <a href="#url">
+                                <img src="./img/team6.jpg" class="img-fluid" alt="">
+                                <div class="team-info">
+                                    <div class="social-icons">
+                                        <a class="facebook" href="https://www.facebook.com/w3layouts/">
+                                            <span class="fa fa-brands fa-facebook-f"></span>
+                                        </a>
+                                        <a class="twitter mx-2" href="https://twitter.com/W3layouts">
+                                            <span class="fa fa-brands fa-twitter"></span>
+                                        </a>
+                                        <a class="google" href="https://w3layouts.com/tag/email-templates/">
+                                            <span class="fa fa-brands fa-google-plus-g"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="team-bot-box p-4">
+                            <h5 class="member mb-1"><a href="#url">Olive Yew</a>
+                            </h5>
+                            <small>Teaches Design</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mt-5">
+                    <div class="team-box">
+                        <div class="team-grids">
+                            <a href="#url">
+                                <img src="./img/team7.jpg" class="img-fluid" alt="">
+                                <div class="team-info">
+                                    <div class="social-icons">
+                                        <a class="facebook" href="https://www.facebook.com/w3layouts/">
+                                            <span class="fa fa-brands fa-facebook-f"></span>
+                                        </a>
+                                        <a class="twitter mx-2" href="https://twitter.com/W3layouts">
+                                            <span class="fa fa-brands fa-twitter"></span>
+                                        </a>
+                                        <a class="google" href="https://w3layouts.com/tag/email-templates/">
+                                            <span class="fa fa-brands fa-google-plus-g"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="team-bot-box p-4">
+                            <h5 class="member mb-1"><a href="#url">Olive Yew</a>
+                            </h5>
+                            <small>Teaches Design</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mt-5">
+                    <div class="team-box">
+                        <div class="team-grids">
+                            <a href="#url">
+                                <img src="./img/team8.jpg" class="img-fluid" alt="">
+                                <div class="team-info">
+                                    <div class="social-icons">
+                                        <a class="facebook" href="https://www.facebook.com/w3layouts/">
+                                            <span class="fa fa-brands fa-facebook-f"></span>
+                                        </a>
+                                        <a class="twitter mx-2" href="https://twitter.com/W3layouts">
+                                            <span class="fa fa-brands fa-twitter"></span>
+                                        </a>
+                                        <a class="google" href="https://w3layouts.com/tag/email-templates/">
+                                            <span class="fa fa-brands fa-google-plus-g"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="team-bot-box p-4">
+                            <h5 class="member mb-1"><a href="#url">Olive Yew</a>
+                            </h5>
+                            <small>Teaches Design</small>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <section class="content pb-5">
-        <div class="container pb-md-5 pb-4 mb-5">
+    <section class="content pb-5 pt-2">
+        <div class="container py-md-5 py-4 mb-5">
             <div class="row align-items-center justify-content-between">
-                <div class="col-lg-5 content-right mb-lg-0 mb-4 text-center">
-                    <img src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/image.png"
-                        alt="" class="img-fluid m-auto" />
-                </div>
-                <div class="col-lg-7 content-left pr-lg-5">
+                <div class="col-lg-6 content-right pr-lg-5">
                     <h3 class="title-style mb-sm-3 mb-2">
-                        Not Sure Where to Begin? <br>Contact Now, We will Help you </h3>
+                        Join Our Mission to Democratize Education </h3>
                     <p>Consectetur adipiscing elit. Aliquam sit amet
-                        efficitur tortor. Uspendisse efficitur orci urna. In et augue ornare, tempor massa in, luctus
-                        sapien.</p>
-                    <div class="mt-4">
-                        <a class="btn btn-style btn-secondary mt-3" href="contact">Contact Us</a>
-                    </div>
+                        efficitur tortor. Uspendisse efficitur orci urna...</p>
+                    <ul class="list-about-2 mt-sm-4 mt-3">
+                        <li class="py-1"><i class="fa fa-regular fa-square-check mr-2" aria-hidden="true"></i>
+                            Ut enim ad minim veniam </li>
+                        <li class="py-2"><i class="fa fa-regular fa-square-check mr-2" aria-hidden="true"></i>
+                            Quis nostrud exercitation ullamco laboris </li>
+                        <li class="py-1"><i class="fa fa-regular fa-square-check mr-2" aria-hidden="true"></i>
+                            Nisi ut aliquip ex ea commodo </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 content-left mt-lg-0 mt-5">
+                    <img src="./img/about1.jpg" alt="" class="img-fluid m-auto" />
                 </div>
             </div>
         </div>
@@ -698,8 +643,30 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <!-- counter js  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'></script>
+    <script src="./js/popup_magnific.js"></script>
     <script src="./js/counter.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".popup-with-zoom-anim").magnificPopup({
+                type: "inline",
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: "auto",
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: "my-mfp-zoom-in"
+            });
+        });
+
+    </script>
 </body>
 
 </html>
