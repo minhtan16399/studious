@@ -1,0 +1,226 @@
+/* Carousel  */
+.carousel-inner {
+    height: 45vh;
+    /* height: 100%; */
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background: linear-gradient(75deg,
+            rgb(16 16 16 / 34%) 10%,
+            rgb(230 2 100 / 0%));
+}
+
+.carousel-caption h5 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #fff;
+    width: 50%;
+}
+
+.carousel-caption span {
+    color: white;
+    opacity: .8;
+    font-size: 15px;
+}
+
+.carousel-caption span i {
+    padding: 0 5px;
+    font-size: 11px;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+    color: white;
+    opacity: .8;
+    transition: all .5s;
+    font-size: 15px;
+}
+
+.carousel-caption a:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1199.98px) {
+    .carousel-caption h5 {
+        font-size: 24px;
+        line-height: 45px;
+    }
+
+    .carousel-inner {
+        height: 53vh;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    #switchButton {
+        background-color: transparent;
+    }
+
+    .carousel-caption h5 {
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .carousel-caption h5 {
+        font-size: 23px;
+        padding-top: 90px;
+    }
+
+    .carousel-inner {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width:767.98px) {
+    .carousel-caption h5 {
+        font-size: 22px;
+        padding-top: 90px;
+    }
+
+    .carousel-inner {
+        height: 28vh;
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    .carousel-caption h5 {
+        font-size: 23px;
+        line-height: 25px;
+        padding-top: 100px;
+    }
+
+    .carousel-inner {
+        height: 28vh;
+
+    }
+}
+
+/* Contact  */
+.contact_content .contact_item h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.contact_content .contact_item .contact_detail .cont_left i {
+    font-size: 20px;
+    color: #ff6e65;
+}
+
+.contact_content .contact_item .contact_detail .cont_right h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.contact_content .contact_item .contact_detail .cont_right a {
+    text-decoration: none;
+    color: #707070;
+    transition: all .5s;
+}
+
+.contact_content .contact_item .contact_detail .cont_right a:hover {
+    color: #ff6e65;
+}
+
+.contact_content .map-iframe {
+    border: 10px solid #fff;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 6%);
+}
+
+body.dark .contact_content .contact_item h3 {
+    color: white;
+}
+
+body.dark .contact_content .contact_item .contact_detail .cont_right h4 {
+    color: white;
+}
+
+body.dark .cont_right p {
+    color: #b7b7b7;
+}
+
+body.dark .contact_item .contact_detail .cont_right a {
+    color: #b7b7b7;
+}
+
+/* QUESTION  */
+.question_content .question_form .input_question input,
+.question_content .question_form .input_mess textarea {
+    padding: 14px;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    outline: none;
+    font-size: 15px;
+}
+
+.question_content .question_form .input_question input:focus {
+    border: 1px solid #ff6e65;
+}
+
+.question_content .question_form .input_mess textarea {
+    border-radius: 8px;
+}
+
+.question_content .question_form .input_mess textarea:focus {
+    border: 1px solid #ff6e65;
+}
+
+.question_content .question_form .btn-style {
+    padding: 14px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background: #ff6e65;
+    color: white;
+    transition: all .5s;
+}
+
+.question_content .question_form .btn-style:hover {
+    background-color: #0d369f;
+}
+
+body.dark .question_form .input_question input {
+    background-color: #060e1f;
+    border: 1px solid rgb(255 255 255 / 20%);
+    color: white;
+}
+
+body.dark .question_form .input_mess textarea {
+    background-color: #060e1f;
+    border: 1px solid rgb(255 255 255 / 20%);
+    color: white;
+}
+
+@media screen and (max-width: 991.98px) {
+    .question .heading h2 {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

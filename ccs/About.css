@@ -1,0 +1,288 @@
+/* Carousel  */
+.carousel-inner {
+    height: 45vh;
+    /* height: 100%; */
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background: linear-gradient(75deg,
+            rgb(16 16 16 / 34%) 10%,
+            rgb(230 2 100 / 0%));
+}
+
+.carousel-caption h5 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #fff;
+    width: 50%;
+}
+
+.carousel-caption span {
+    color: white;
+    opacity: .8;
+    font-size: 15px;
+}
+
+.carousel-caption span i {
+    padding: 0 5px;
+    font-size: 11px;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+    color: white;
+    opacity: .8;
+    transition: all .5s;
+    font-size: 15px;
+}
+
+.carousel-caption a:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1199.98px) {
+    .carousel-caption h5 {
+        font-size: 24px;
+        line-height: 45px;
+    }
+
+    .carousel-inner {
+        height: 53vh;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    #switchButton {
+        background-color: transparent;
+    }
+
+    .carousel-caption h5 {
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .carousel-caption h5 {
+        font-size: 23px;
+        padding-top: 90px;
+    }
+
+    .carousel-inner {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width:767.98px) {
+    .carousel-caption h5 {
+        font-size: 22px;
+        padding-top: 90px;
+    }
+
+    .carousel-inner {
+        height: 28vh;
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    .carousel-caption h5 {
+        font-size: 23px;
+        line-height: 25px;
+        padding-top: 100px;
+    }
+
+    .carousel-inner {
+        height: 28vh;
+
+    }
+}
+
+
+/* MISSION  */
+.mission_content .mission_left h3 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+}
+
+.mission_content .mission_right .mission_img img {
+    border-radius: 4px;
+}
+
+/* .mission_content .mission_right .mission_img a{
+      text-decoration: none;
+      color: white;
+  } */
+.mission_content .mission_right .mission_img a {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mission_content .mission_right .mission_img i {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+    padding-left: 10px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    /* -webkit-animation: ripple 1s linear infinite;
+    animation: ripple 1s linear infinite; */
+    color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #fff;
+    border: 4px solid #fff;
+    background: rgb(12 12 12 / 22%);
+}
+
+.mission_content .mission_right .mission_img i:hover {
+    transform: scale(1.1);
+}
+
+
+#small-dialog {
+    max-width: 750px;
+    margin: 40px auto;
+    position: relative;
+}
+
+div#small-dialog iframe {
+    width: 100%;
+    height: 420px;
+    display: block;
+    border-radius: 10px;
+}
+
+.mfp-close-btn-in .mfp-close {
+    color: #fff;
+}
+
+.mfp-close,
+.mfp-close:active {
+    top: -40px;
+}
+
+
+
+
+body.dark .mission_content .mission_left h3 {
+    color: white;
+}
+
+body.dark .pap {
+    color: #b7b7b7;
+}
+
+@media screen and (max-width: 1199.98px) {
+    .mission_content .mission_left h3 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    .mission_img {
+        margin-top: 30px;
+    }
+}
+
+/* WELCOME  */
+.welcome .welcome_content .welcome_item {
+    padding: 40px 30px;
+    border-radius: 8px;
+    text-align: center;
+
+    border: 1px solid #eee;
+}
+
+.welcome_content .welcome_item i {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    background-color: rgb(10 191 83 / 10%);
+    color: #0abf53;
+    border-radius: 50%;
+}
+
+.welcome_content .welcome_item.style-2 i {
+    color: #ffc947;
+    background: rgb(255 201 73 / 22%);
+}
+
+.welcome_content .welcome_item.style-3 i {
+    color: #ff4f81;
+    background: rgb(255 79 129 / 15%);
+}
+
+.welcome .welcome_content .welcome_item h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.welcome .welcome_content .welcome_item h4:hover {
+    color: #ff6e65;
+}
+
+.welcome .welcome_content .welcome_item p {
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: 0.4px;
+}
+
+body.dark .welcome {
+    background-color: #121725 !important;
+}
+
+body.dark .welcome .welcome_content .welcome_item {
+    background-color: #161c2d !important;
+    border: 1px solid rgb(255 255 255 / 20%);
+}
+
+body.dark .welcome_item h4 {
+    color: white;
+}
+
+/* body .welcome_content .welcome_item i {
+  background-color: rgb(10 191 83 / 10%);
+} */
+body.dark .welcome_content .welcome_item p {
+    color: #b7b7b7;
+}
+
+@media screen and (max-width: 800px) {}
+
+@media screen and (max-width: 767.98px) {
+    .welcome_content .col-md-6:last-child {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    .welcome .welcome_content .welcome_item {
+        margin-top: 25px;
+    }
+}
